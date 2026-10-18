@@ -10,7 +10,7 @@ Original file is located at
 !pip install roboflow
 
 from roboflow import Roboflow
-rf = Roboflow(api_key="IhV0YSzmQDMQ1eRVcQv2")
+rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("roboflow-58fyf").project("rock-paper-scissors-sxsw")
 version = project.version(1)
 dataset = version.download("yolov8")
