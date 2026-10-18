@@ -1,0 +1,24 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets
+rock-paper-scissors-1/
+dataset/
+
+# Model weights
+*.pt
+
+# Training outputs
+runs/
+wandb/
+
+# Virtual environments
+.venv/
+venv/
